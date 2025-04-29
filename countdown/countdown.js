@@ -10,6 +10,7 @@ function calculate(diff) {
 
   var seconds = sec;
 
+  // 시간을 00 형태로 나타내기 위함
   if (hours < 10) hours = "0" + hours;
   if (minutes < 10) minutes = "0" + minutes;
   if (seconds < 10) seconds = "0" + seconds;
@@ -91,6 +92,7 @@ function update_time() {
   }
 }
 
-setInterval(update_time, 1000); // 시간을 계속해서 갱신신
+setInterval(update_time, 1000);
+// 시간을 계속해서 1초마다 갱신(이 부분이 시간이 초마다 바뀌게 한다, 1000ms = 1s)
 
-update_time(); // 처음부분을 맞춰야 함함
+update_time(); // 처음 실행해줘야 함
