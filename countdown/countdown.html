@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <script src="./countdown.js"></script>
+    <title>Countdown</title>
+  </head>
+  <body>
+    <div class="body-container">
+      <div class="storeTime">
+        <p class="runtext">운영시간</p>
+        <p class="runTime">AM 07:00 ~ PM 11:30</p>
+      </div>
+
+      <div class="countdown">
+        <p class="counttext">카운트다운</p>
+        <p class="openTime" style="display: none" ;>금일 오픈까지 남은 시간</p>
+        <div class="open_time" style="display: none" ;>
+          <span class="hours"></span>
+          <span class="col">:</span>
+          <span class="minutes"></span>
+          <span class="col">:</span>
+          <span class="seconds"></span>
+        </div>
+
+        <p class="becloseTime" style="display: none" ;>
+          금일 마감까지 남은 시간
+        </p>
+        <div class="beclose_time" style="display: none" ;>
+          <span class="hours"></span>
+          <span class="col">:</span>
+          <span class="minutes"></span>
+          <span class="col">:</span>
+          <span class="seconds"></span>
+        </div>
+
+        <p class="afcloseTime" style="display: none" ;>금일 마감</p>
+      </div>
+    </div>
+  </body>
+</html>
