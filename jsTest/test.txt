@@ -1,0 +1,95 @@
+Q1. 1번번
+Q2. console.log
+Q3. num % 2 == 0
+Q4. 3000
+Q5. appendChild
+Q6. 
+
+Q7. const lion = () => { 
+ console.log(“자바스크립트 마스터를 해보자!”);
+}
+
+lion();
+
+Q8. isLogin == True? alert("환영합니다!") : alert("접근 권한이 없습니다.");
+
+Q9. do{
+    const name = prompt("무엇을 말하고 싶나요?");
+    } while(name === "끝")
+
+Q10. while(True){
+    let num = prompt("숫자를 입력하세요");
+    let numInt = Number(num);
+
+    let sum = 0;
+
+    for(let i=1; i<=num; i++){
+        sum += i;
+    }
+
+
+    alert(`1부터 해당값까지의 합은 ${sum}입니다`);
+
+}
+
+Q11.
+
+function randomNum() {
+    const num = Math.floor(Math.random() * 10) + 0;
+    return Int(num);
+}
+
+let arr = [];
+let sum = 0;
+
+for(let i=0; i<3; i++){
+    arr[i] = randomNum();
+    sum += arr[i];
+    // 화면 출력
+    
+}
+ 
+
+
+Q12. 
+const arr1 = ["빨강", "주황", "노랑", "초록"];
+const arr2 = ["파랑", "남색", "보라", "핑크"];
+
+const arr3 = arr1.push(arr2);
+
+console.log(arr3);
+
+console.log(arr3[2]);
+
+// console.log(arr3[3:: ])
+
+
+Q13.
+let date = "2025년 5월 2일";
+
+console.log(date);
+
+let now = new Date();
+
+console.log(
+  "오늘날짜: ",
+  now.getFullYear(),
+  "년",
+  now.getMonth(),
+  "월",
+  now.getDate(),
+  "일"
+);
+
+let diff = now.getDate() - 2;
+
+console.log(`${date}로부터 ${diff}일이 지났습니다`);
+
+
+
+Q14.
+const textBtn = document.getElementById("name");
+
+
+
+Q15
