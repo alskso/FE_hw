@@ -1,23 +1,30 @@
-Q1. 1번번
-Q2. console.log
-Q3. num % 2 == 0
-Q4. 3000
-Q5. appendChild
+//맞은 개수 : 4개
+//수고하셨습니다!!
+
+Q1. 1번번 - x
+Q2. console.log - x
+Q3. num % 2 == 0 - x
+Q4. 3000 - o
+Q5. appendChild - o
 Q6. 
 
-Q7. const lion = () => { 
+Q7. - o
+const lion = () => { 
  console.log(“자바스크립트 마스터를 해보자!”);
 }
 
 lion();
 
-Q8. isLogin == True? alert("환영합니다!") : alert("접근 권한이 없습니다.");
+Q8. - x
+isLogin == True? alert("환영합니다!") : alert("접근 권한이 없습니다.");
 
-Q9. do{
+Q9. - x
+do{
     const name = prompt("무엇을 말하고 싶나요?");
     } while(name === "끝")
 
-Q10. while(True){
+Q10. - x
+while(True){
     let num = prompt("숫자를 입력하세요");
     let numInt = Number(num);
 
@@ -32,7 +39,7 @@ Q10. while(True){
 
 }
 
-Q11.
+Q11. - x
 
 function randomNum() {
     const num = Math.floor(Math.random() * 10) + 0;
@@ -51,7 +58,7 @@ for(let i=0; i<3; i++){
  
 
 
-Q12. 
+Q12. - x
 const arr1 = ["빨강", "주황", "노랑", "초록"];
 const arr2 = ["파랑", "남색", "보라", "핑크"];
 
@@ -64,7 +71,7 @@ console.log(arr3[2]);
 // console.log(arr3[3:: ])
 
 
-Q13.
+Q13. - o
 let date = "2025년 5월 2일";
 
 console.log(date);
@@ -87,9 +94,9 @@ console.log(`${date}로부터 ${diff}일이 지났습니다`);
 
 
 
-Q14.
+Q14. - x
 const textBtn = document.getElementById("name");
 
 
 
-Q15
+Q15 - x
