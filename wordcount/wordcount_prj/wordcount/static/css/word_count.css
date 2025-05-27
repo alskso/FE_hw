@@ -1,0 +1,14 @@
+img {
+  width: 500px;
+}
+textarea{
+    width: 500px ;
+    resize:  none;
+    outline: none;
+}
+
+h1 {
+  width: 500px ;
+  display: flex;
+  justify-content: center;
+}
