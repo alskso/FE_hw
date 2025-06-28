@@ -19,6 +19,14 @@
     {
       "id": "e0db",
       "day": 5
+    },
+    {
+      "id": "c6a9",
+      "day": 6
+    },
+    {
+      "id": "61fe",
+      "day": 7
     }
   ],
   "words": [
@@ -27,13 +35,6 @@
       "day": 1,
       "eng": "book",
       "kor": "책",
-      "isDone": false
-    },
-    {
-      "id": "3",
-      "day": 2,
-      "eng": "car",
-      "kor": "자동차",
       "isDone": false
     },
     {

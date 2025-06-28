@@ -13,7 +13,7 @@ const ListDayLi = styled.section`
     padding: 10px;
 `;
 
-const ListDayA = styled.section`
+const ListDayA = styled(Link)`
     display: block;
     padding: 20px 0;
     font-weight: bold;
@@ -25,6 +25,7 @@ const ListDayA = styled.section`
 
 function DayList() {
     const days = useFetch("http://localhost:3001/days");
+    console.log("days:", days);
 
     if (days.length === 0) {
         return <span>Loading...</span>;
@@ -34,7 +35,7 @@ function DayList() {
         <ListDay>
             {days.map((day) => (
                 <ListDayLi key={day.id}>
-                    <Link to={`/day/${day.day}`}><ListDayA>Day</ListDayA>{day.day}</Link>
+                    <ListDayA to={`/day/${day.day}`}>Day{day.day}</ListDayA>
                 </ListDayLi>
             ))}
         </ListDay>

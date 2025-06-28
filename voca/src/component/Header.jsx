@@ -10,7 +10,7 @@ const HeaderMenu = styled.section`
     top: 10px;
     right: 0;`;
 
-const HeaderLink = styled.section`
+const HeaderLink = styled(Link)`
     border: 1px solid #333;
     padding: 10px;
     margin-left: 10px;
@@ -27,12 +27,8 @@ function Header() {
                 <Link to="/">영어 단어장 만들기</Link>
             </h1>
             <HeaderMenu>
-                <HeaderLink>
-                    <Link to="/create_word">단어추가</Link>
-                </HeaderLink>
-                <HeaderLink>
-                    <Link to="/create_day">Day 추가</Link>
-                </HeaderLink>
+                <HeaderLink to="/create_word">단어추가</HeaderLink>
+                <HeaderLink to="/create_day">Day 추가</HeaderLink>
             </HeaderMenu>
         </HeaderClass>
     );
